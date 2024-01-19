@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Calculate statistics of array, print and sort array.
  *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * Implemented with 7 funtion that calculate median, mean, maximum, minimum of array and
+ * sort array with bubble sort, print statistics and array
+ * @author Oleh Terno
+ * @date 19.01.2024
  *
  */
 
@@ -24,7 +24,6 @@
 #include <stdio.h>
 #include "stats.h"
 
-/* Size of the Data Set */
 #define SIZE (40)
 
 void main() {
@@ -34,10 +33,41 @@ void main() {
                               200, 122, 150, 90,   92,  87, 177, 244,
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
+unsigned int size = SIZE;
 
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
 
 }
 
-/* Add other Implementation File Code Here */
+unsigned char find_median(unsigned char *arr, unsigned int len)
+{
+
+}
+unsigned char find_mean(unsigned char *arr, unsigned int len)
+{
+
+}
+
+unsigned char find_maximum(unsigned char *arr, unsigned int len)
+{
+
+}
+
+unsigned char find_minimum(unsigned char *arr, unsigned int len)
+{
+
+}
+void sort_array(unsigned char *arr, unsigned int len)
+{
+
+}
+void print_array(unsigned char *arr, unsigned int len)
+{
+
+}
+void print_statistics()
+{
+
+}
+
+
+
