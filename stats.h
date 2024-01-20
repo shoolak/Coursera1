@@ -31,10 +31,14 @@
 /**
  * @brief Prints the statistic of an array inculding minimum, maximum, mean, and median.
  *
- * This function takes nothing for input.Then it will print all variable with additional description
+ * This function takes mean, median, max and min for input.Then it will print all variable with additional description
+ * @param Unsigned char that represent mean of array
+ * @param Unsigned char that represent median of array
+ * @param Unsigned char that represent maximum element
+ * @param Unsigned char that represent minimum element
  *
  * @return This is a void func so nothing will be returned
- */ void print_statistics();
+ */ void print_statistics(unsigned char mean,unsigned char median,unsigned char max,unsigned char min);
  
  
  /**
